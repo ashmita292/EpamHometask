@@ -10,7 +10,7 @@ abstract class Test
 		System.out.println("1");
 	}
 }
-	class ABC implements IA
+	class XYZ implements IA
 	{
 		public void display()
 		{
@@ -22,7 +22,7 @@ abstract class Test
 		}
 		public static void main(String[] args)
 		{
-			ABC X=new ABC();
+			XYZ X=new XYZ();
 			X.show();
 		}
 	}
